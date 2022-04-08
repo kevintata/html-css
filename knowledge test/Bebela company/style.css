@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Royal';
+    src: url(Royalacid_o.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Cooper;
+    src: url(Cooper\ Std\ Black\ Italic.ttf);
+}
+
+body
+{   
+    padding: 0;
+    margin: 0;
+    background-color: rgb(164, 211, 252);
+}
+
+
+
+
+.playful span {
+position: relative;
+color: hotpink # 5362F6;
+text-shadow: textShadow(0.25, 6, #E485F8);
+animation: scatter 1.75s infinite;
+}
+
+.playful span:nth-child(2n) {
+color: hotpink # ED625C;
+text-shadow: textShadow(0.25, 6, #F2A063);
+animation-delay: 0.3s;
+}
+
+.playful span:nth-child(3n) {
+color: hotpink # FFD913;
+text-shadow: textShadow(0.25, 6, #6EC0A9);
+animation-delay: 0.15s;
+}
+
+.playful span:nth-child(5n) {
+color: hotpink# 555BFF;
+text-shadow: textShadow(0.25, 6, #E485F8);
+animation-delay: 0.4s;
+}
+
+.playful span:nth-child(7n), .playful span:nth-child(11n) {
+color: hotpink# FF9C55;
+text-shadow: textShadow(0.25, 6, #FF5555);
+text-shadow: 6px, 6px, #FF5555;
+animation-delay: 0.25s;
+}
+
+@keyframes scatter {
+0% {
+top: 0;
+}
+50% {
+top: -10px;
+}
+100% {
+top: 0;
+}
+}
+
+h1 {
+    text-align: center;
+
+font-size: 100px;
+text-transform: uppercase;
+font-family: "Archivo Black", "Archivo", sans-serif;
+font-weight: normal;
+display: block;
+width: 200em;
+max-width: 80vw;
+min-height: 90px;
+height: auto;
+text-align: center;
+margin: 10rem auto;
+margin: calc(65vh - 45rem) auto;
+text-shadow: 6px 6px 0px white, 1px 1px 0px white, 2px 2px 0px white, 3px 3px 0px white, 4px 4px 0px white, 5px 5px 0px white, 7px 7px 0px white;
+}
+
+#pic {
+    text-align: justify;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    outline: 10px dashed white;
+}
+
+
+#pink {
+    color: hotpink;
+}
+
+#main {
+    color: rgb(230, 139, 195);
+    font-size: 6em;
+
+    margin:0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cooper';
+    text-shadow: 6px 6px 0px white, 3px 3px 0px white;;
+    
+}
+
+
+.cooking-above {
+    text-align: left;
+}
+
+.plate {
+padding-right: 2em;
+}
+
+.pasta {
+    padding-right: 2em;
+}
+
+.nachos {
+    padding-right: 2em;
+    color: beige;
+}
+
+
+
+#remi {
+    text-align: center;
+    margin: 55px;
+    border: 10px;
+    padding: 100px;
+}

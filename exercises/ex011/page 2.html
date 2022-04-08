@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+</head>
+<body>
+    <h1>Page 2 test with jpg</h1>
+        <picture>
+            <source media="(max-width: 700px)" srcset="images/scenery-650.jpg" type="image/jpg">
+            <source media="(max-width: 1250px)" srcset="images/scenery-1200.jpg" type="image/jpg">
+            <img src="images/scenery-full.jpg" alt="Full picture">
+        </picture>
+            <audio controls autoplay src="media/happy-mistake.mp3" type="audio/mpeg"></audio>
+    <p>
+        <audio preload="metadata" controls autoplay>
+            <source src="media/happy-mistake.mp3" type="audio/mpeg">
+        </audio>
+    </p>
+    <p><a href="index.html" rel="prev">Page 1</a></p>
+</body>
+</html>

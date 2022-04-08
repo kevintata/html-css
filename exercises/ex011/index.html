@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media in HTML5</title>
+</head>
+<body>
+    <H1>Dynamic Images</H1>
+    <p>Try opening this page on different devices or simply change the size of your browser. </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Flexible image">
+    </picture>
+
+    <h1>Playing audio</h1>
+    <p>Lets learn to play audio in HTML5</p>
+    <audio src="media/happy-mistake.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <source src="media/guanacast-33.ogg" type="audio/ogg">
+        <source src="media/guanacast-33.wav" type="audio/wav">
+        <p>Unfortunately your browser does not support media playback. <a href="media/guanacast-33.mp3">Click here to download the MP3 file.</a></p>
+    </audio>
+    <!--MP3 WAV OGG --> <!--Wav is not recommended, muito pesado.-->
+
+<audio src=""></audio>
+
+
+
+    <!--target="_self is unecessary because it is the default behavior"-->
+    <p><a href="page 2.html" rel="next" target="_self">Page 2</a></p>
+    <p><a href="page 2.html" rel="next">Page 2</a></p>
+</body>
+</html>

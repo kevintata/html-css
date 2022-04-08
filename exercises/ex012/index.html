@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos with HTML5</title>
+</head>
+<body>
+    <h1>Using videos hosted locally</h1>
+    <p>This video is hosted on my own server.</p>
+    <video src="media/my-video.mp4" width="500" controls></video>
+
+   <video width="500" poster="images/foto-p.png" controls>
+        <source src="media/my-videobrake.mp4" type="video/mp4">
+        <source src="media/my-video.webm" type="video/webm">
+        <source src="media/my-video.mp4" type="video/mp4">
+        <!--MP4 M4V WEBM OGV-->
+        <p>Your browser does not support video playback.</p>
+   </video>
+   
+   <h1>Inserting videos from YouTube</h1>
+   <p>This video is coming from a YouTube link.</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/spZA41wJulA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+   <h1>Inserting videos from Vimeo</h1>
+   <p>This video is coming from a Vimeo link.</p>
+   <iframe src="https://player.vimeo.com/video/29315013?h=4a7399cc6d&autoplay=1&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
